@@ -6,6 +6,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+/*
+
+
+precedence in annotation:
+
+1.qualifier ->
+2.@primary
+3.name
+
+ */
+
+
 
 @Component
 public class RecommenderImplementation {
